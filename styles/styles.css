@@ -1,0 +1,162 @@
+:root{
+   --color-black: #202124;
+   --google-blue: #4285f4;
+   --google-green: #0f9d58;
+   --google-yellow: #f48400;
+   --google-red: #db4437;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    outline: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+body{
+    background-color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*Clases Reutilizáveis*/
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.w50{
+    width: 50%;
+}
+
+.display-flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.display-flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+
+/*************/
+
+header{
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #cecece;
+}
+
+#logo{
+    color: var(--color-black);
+}
+
+.logo-letter-blue{
+    color: var(--google-blue);
+}
+
+.logo-letter-green{
+    color: var(--google-green);
+}
+
+.logo-letter-yellow{
+    color: var(--google-yellow);
+}
+
+.logo-letter-red{
+    color: var(--google-red);
+}
+
+header ul li{
+    display: block;
+    margin: 0 10px;
+    font-size: 13px;
+}
+
+header ul li a{
+    color: #AAA;
+}
+
+.doodle-main .container{
+    height: 400px;
+}
+
+#img-doodle-main{
+    width: 500px;
+    height: auto;
+}
+
+.title{
+    font-size: 25px;
+}
+.description{
+    margin-top: 20px;
+}
+.button{
+    display: inline-block;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--google-blue);
+    color: #fff;
+    margin-top: 20px;
+}
+
+a:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.carrousel-films .item{
+    padding: 20px 0;
+}
+
+.item-box{
+    display: block;
+    width: 500px;
+    height: 200px;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    box-shadow: 1px 1px 10px #cecece;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+.item-description{
+    padding: 10px 20px;
+    background-color: var(--google-green);
+}
+
+.item-description p{
+    color: #fff;
+}
+
+#item-beethoven{
+    background-image: url('./../assets/doodle-beethoven.jpg');
+}
+
+#item-pac-man{
+    background-image: url('./../assets/doodle-pac-man.png');
+}
+
+#item-programacao-para-criancas{
+    background-image: url('./../assets/doodle-programacao-para-criancas.png');
+}
+
+#item-clara-rockmore{
+    background-image: url('./../assets/doodle-clara-rockmore.gif');
+}
+
+#item-hip-hop{
+    background-image: url('./../assets/doodle-hip-hop.png');
+}

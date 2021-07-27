@@ -1,0 +1,55 @@
+@media screen and (max-width:700px){
+
+    .container{
+        width: 100%;
+    }
+
+    .w50{
+        width: 100%;
+    }
+
+    header .container, main .container{
+        flex-direction: column;
+    }
+
+    main .container{
+        padding: 50px 20px;
+    }
+
+    #img-doodle-main{
+        width: 200px;
+    }
+
+    .carrousel-films{
+        margin-top: 80px;
+    }
+
+    .item-box{
+        width: 90%;
+        height: 300px;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 1500px){
+    .container{
+        width: 100%;
+    }
+    main .container{
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    
+    .item-box{
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+
+    .carrousel-films{
+        margin-top: 30%;
+    }
+
+}
+
